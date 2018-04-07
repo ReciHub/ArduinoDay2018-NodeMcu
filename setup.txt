@@ -1,0 +1,9 @@
+Download Arduino:
+https://www.arduino.cc/en/Main/Software
+
+URLs adicionais de Gerenciadores de Placas:
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Driver Node MCU - Windows
+https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/163/CP210x_Windows_Drivers.zip
+https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/163/CH341SER_WINDOWS.zip
