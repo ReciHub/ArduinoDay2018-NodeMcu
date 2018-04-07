@@ -1,7 +1,7 @@
 // Valores de constantes nao mudam. Sao usualmente utilizados para pinagem:
-const int buttonPin = 14;     // O valor do pino do push button
+const int buttonPin = A0;     // O valor do pino do push button
 // Variaveis que serao modificadas
-int buttonState = 0;         // Variavel que salva o status do botao
+int entradaSensor = 0;         // Variavel que salva o status do botao
 
 void setup() {
   Serial.begin(9600);
@@ -11,12 +11,12 @@ void setup() {
 
 void loop() {
   // Le o valor do push button
-  buttonState = digitalRead(buttonPin);
+  entradaSensor = analogRead(buttonPin);
 
   // Verifica se o botao esta pressionado
-  if (buttonState == HIGH) {
-    Serial.println("O Valor do Botao esta em nivel Alto");
+  if (entradaSensor > 127) {
+    Serial.println("Tem muita umidade nesse lugar");
   } else {
-    Serial.println("O Valor do Botao esta em nivel Baixo");
+    Serial.println("Tem pouca umidade");
   }
 }

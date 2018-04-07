@@ -1,4 +1,4 @@
-char nome[] = "Thiago Augusto"; // Digite o seu nome dentro das ""
+char nome[] = "Saulo"; // Digite o seu nome dentro das ""
 
 void setup() {
   // Comeca a comunicacao com o pc a 9600 bps:

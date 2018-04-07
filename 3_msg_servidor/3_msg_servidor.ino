@@ -17,7 +17,7 @@ void setup() {
     delay(500);
     Serial.println("Waiting for connection");
   }
-  
+ /* 
   Serial.println("Qual o seu nome?");
   while (Serial.available() > 0) {
     inChar = Serial.read(); // Read a character
@@ -29,7 +29,7 @@ void setup() {
     Serial.println(inChar, DEC);
   }
 
-  
+  */
 
 }
 
@@ -37,6 +37,7 @@ void loop() {
 
   if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
 
+/*
     Serial.println("Digite uma frase para o chat");
     i = 0;
     while (Serial.available() > 0) {
@@ -46,7 +47,7 @@ void loop() {
       frase[i] = inChar; // Store it
       i++; // Increment where to write next
     }
-
+*/
 
     HTTPClient http;    //Declare object of class HTTPClient
 

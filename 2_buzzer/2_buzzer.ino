@@ -10,6 +10,7 @@ int noteDurations[] = {
 };
 
 void setup() {
+  pinMode(14, OUTPUT);
   // Itera sobre os valores diferentes das notas
   for (int thisNote = 0; thisNote < 6; thisNote++) {
 
