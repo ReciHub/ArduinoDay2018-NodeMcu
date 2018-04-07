@@ -12,7 +12,7 @@ void setup() {
 
   Serial.begin(9600);                                  //Serial connection
   
-  WiFi.begin("CINGUESTS", "acessocin");   //WiFi connection
+  WiFi.begin("235-ARDUINO DAY", "arduinoday");   //WiFi connection
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
     delay(500);
     Serial.println("Waiting for connection");
@@ -62,9 +62,7 @@ void loop() {
     http.end();  //Close connection
 
   } else {
-
     Serial.println("Error in WiFi connection");
-
   }
 
   delay(1000);  //Send a request every 30 seconds
