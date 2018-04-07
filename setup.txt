@@ -12,5 +12,6 @@ https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/163/CH341SER_WINDOWS.zip
 MAC:
 
 https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/163/CH341SER_MAC.ZIP
-
 https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/163/CP210x_Mac_OSX_VCP_Driver.zip
+
+https://www.robocore.net/tutoriais/como-instalar-o-driver-do-nodemcu.html
